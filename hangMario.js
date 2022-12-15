@@ -274,7 +274,7 @@ function win(niveau) {
     const btnOk = document.querySelector(".buttonFinGame");
     btnOk.addEventListener("click", function () {
       localStorage.clear();
-      window.location = "hangMario.html";
+      window.location = "index.html";
     });
   }
 }
@@ -295,6 +295,6 @@ function lose() {
   const btnOk = document.querySelector(".buttonOK");
   btnOk.addEventListener("click", function () {
     localStorage.clear();
-    window.location = "hangMario.html";
+    window.location = "index.html";
   });
 }
