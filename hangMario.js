@@ -24,7 +24,7 @@ if (level.innerHTML != 1) {
   let h1Start = document.querySelector(".start h1");
   let pStart = document.querySelector(".start p");
 
-  h1Start.innerHTML = "C'est partie pour la prochaine manche";
+  h1Start.innerHTML = "C'est parti pour la prochaine manche";
   pStart.innerHTML = "Quand tu es pret, clique sur Let's Start";
 }
 
